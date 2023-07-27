@@ -1,0 +1,61 @@
+body {
+    background: url(thread.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    max-width: 90%;
+    margin: auto;
+    border: 3px dashed darkslateblue;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: darkslateblue;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: darkslateblue;
+    font-size: 25px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: darkslateblue;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 2px dashed darkslateblue;
+}
+
+#increment-btn {
+    background: #FF6AED;
+}
+
+#save-btn {
+    background: #FFC76A;
+}
+
+#reset-btn {
+    background: darkslateblue;
+    color: ghostwhite;
+    margin-bottom: 20px;
+}
